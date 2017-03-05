@@ -1,0 +1,18 @@
+{
+  "name": "atkinson-dither",
+  "version": "0.0.1",
+  "description": "Performs Atkinson dithering on an image.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "atkinson-dither": "./bin/atkinson-dither.js"
+  },
+  "author": "Geoffrey Roberts <g.roberts@blackicemedia.com>",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^1.6.4",
+    "yargs": "^7.0.1"
+  }
+}
